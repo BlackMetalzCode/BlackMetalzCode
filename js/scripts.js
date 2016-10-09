@@ -25,7 +25,9 @@ $(function() {
 $('#ts3').waypoint(function(){
   $(this).toggleClass($(this).data('animated'));
 },
-{ offset: '90%'
+{
+  triggerOnce: true,
+  offset: '90%'
 });
 
 
